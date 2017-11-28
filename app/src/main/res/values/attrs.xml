@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BounceProgressBar">
+        <attr name="line_height" format="string" />
+        <attr name="line_width" format="string"/>
+        <attr name="line_color" format="color"/>
+        <attr name="point_color" format="color"/>
+    </declare-styleable>
+
+</resources>

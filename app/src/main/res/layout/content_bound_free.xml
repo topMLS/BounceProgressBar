@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mls="http://schemas.android.com/apk/res/com.example.bounceprogressbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.bounceprogressbar.BounceProgressBar
+        android:id="@+id/qp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        mls:line_height="2dp"
+        mls:point_color="#000000"
+        mls:line_color="#ffffff"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>
